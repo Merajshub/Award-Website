@@ -95,20 +95,20 @@ export const Feature   = ()=>{
                  />
                 </BentoTilt>
 
-                <div className="bento-tilt_2">
-                    <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
+                <BentoTilt className="bento-tilt_2">
+                    <div className="flex size-full flex-col justify-between bg-[#5542ff] p-5">
                         <h1 className="bento-title special-font max-w-64 text-black"> M<b>o</b>re Co<b>m</b>ing Soon!</h1>
                         <TiLocationArrow className="m-5 scale-[5] self-end"/>
 
                     </div>
-                </div>
-                <div className="bento-tilt_2">
+                </BentoTilt>
+                <BentoTilt className="bento-tilt_2">
                     <video src="videos/feature-5.mp4"
                     loop
                     muted
                     autoPlay
                     className="size-full object-cover object-center"></video>
-                </div>
+                </BentoTilt>
 
             </div>
             </div>
